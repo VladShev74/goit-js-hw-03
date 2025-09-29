@@ -1,7 +1,17 @@
+// function filterArray(numbers, value) {
+//   return numbers.filter(number => {
+//     return number >= value;
+//   });
+// }
+
 function filterArray(numbers, value) {
-  return numbers.filter(number => {
-    return number >= value;
-  });
+  const filteredArray = []
+  for (const number of numbers) {
+    if (number >= value) {
+      filteredArray.push(number)
+    }
+  }
+  return filteredArray
 }
 
 console.log(filterArray([1, 2, 3, 4, 5], 3)); // [4, 5]
