@@ -1,6 +1,6 @@
 // function filterArray(numbers, value) {
 //   return numbers.filter(number => {
-//     return number >= value;
+//     return number > value;
 //   });
 // }
 
